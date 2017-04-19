@@ -2,18 +2,18 @@
 % Please edit documentation in R/cvm.R
 \name{dotcvm}
 \alias{dotcvm}
-\title{Calculate 3D covariance matrix using unscaled congruence coefficient.  Skips any missing values in computation of covariance matrix}
+\title{Calculate 2d or 3D covariance matrix using unscaled congruence coefficient.  Skips any missing values in computation of covariance matrix}
 \usage{
 dotcvm(A)
 }
 \arguments{
-\item{A}{An N x 3 x M array where N is the number of landmarks, 3 is the number of dimensions, and M is the number of specimens.}
+\item{A}{An N x D x M array where N is the number of landmarks, D is the number of dimensions (2 or 3), and M is the number of specimens.}
 }
 \value{
 N x N covariance matrix
 }
 \description{
-Calculate 3D covariance matrix using unscaled congruence coefficient.  
+Calculate 2D or 3D covariance matrix using unscaled congruence coefficient.  
   Skips any missing values in computation of covariance matrix
 }
 \details{
@@ -26,4 +26,3 @@ This function does not guarantee that the returned matrix is
 A <- array(rnorm(4 * 2 * 3), dim = c(2, 3, 4)) 
 A.cvm <- dotcvm(A)
 }
-

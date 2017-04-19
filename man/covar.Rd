@@ -26,4 +26,3 @@ This function does not guarantee that the returned matrix is
 A <- array(rnorm(4 * 2 * 3), dim = c(2, 3, 4)) 
 A.cov <- covar(A)
 }
-

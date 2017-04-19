@@ -23,4 +23,3 @@ Count the number of missing landmarks in an array
  A[2, , 1] <- NA
  countMissing(A)
 }
-

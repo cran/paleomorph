@@ -46,4 +46,3 @@ plotSpecimens(A, l1 = c(1:4), planeOptions = list(alpha = 0.4, color = 'red'))
 \seealso{
 \code{\link[rgl]{plot3d}} \code{\link{mirrorfill}} \code{\link[rgl]{planes3d}} \code{\link[rgl]{rgl.material}}
 }
-

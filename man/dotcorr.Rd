@@ -22,4 +22,3 @@ A <- array(rnorm(4 * 2 * 3), dim = c(2, 3, 4))
 A.corr <- dotcorr(A)
 
 }
-

@@ -35,4 +35,3 @@ Given an n x 3 matrix, replace a set of landmarks using their mirrored counterpa
  # Mirror point 1 using it's complimentary landmark, point 8.
  mirrorS <- mirrorfill1(s, l1 = c(2:7, 9:14), l2 = c(1, 8))
 }
-

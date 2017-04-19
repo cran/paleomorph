@@ -42,4 +42,3 @@ Given an N x 3 x M matrix, where N is the number of landmarks, 3 is the number o
  mirrorA <- mirrorfill(missinga, l1 = c(3:6, 9:12), l2 = c(1, 7, 2, 8))
 
 }
-
